@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Personal Website</title>
+    <style>
+      body {
+        background-color: #f2f2f2;
+        font-family: Arial, sans-serif;
+        color: #333;
+      }
+      h1 {
+        color: #005b99;
+      }
+      .header {
+        background-color: #005b99;
+        color: white;
+        padding: 20px;
+        text-align: center;
+      }
+      .nav {
+        background-color: #80b3ff;
+        overflow: hidden;
+      }
+      .nav a {
+        float: left;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+      }
+      .nav a:hover {
+        background-color: #005b99;
+      }
+      .content {
+        padding: 20px;
+      }
+      .footer {
+        background-color: #005b99;
+        color: white;
+        padding: 20px;
+        text-align: center;
+      }
+      .contact-info {
+        margin-top: 20px;
+        padding: 20px;
+        background-color: #e6f2ff;
+      }
+      .contact-info h2 {
+        color: #005b99;
+        margin-bottom: 10px;
+      }
+      .contact-info p {
+        font-size: 18px;
+        margin-bottom: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <h1>Christian Bougas</h1>
+      <p>Cornell University, School of Hotel Administration</p>
+    </div>
+    <div class="nav">
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Resume</a>
+      <a href="#">Portfolio</a>
+      <a href="#">Contact</a>
+    </div>
+    <div class="content">
+      <h2>Welcome to my website!</h2>
+      <p>Thank you for visiting my personal website. Here, you can learn more about me and my professional background.</p>
+    </div>
+    <div class="contact-info">
+      <h2>Contact Information</h2>
+      <p>Phone: (123) 456-7890</p>
+      <p>Email: christianbougas@email.com</p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/christianbougas/">https://www.linkedin.com/in/christianbougas/</a></p>
+    </div>
+    <div class="footer">
+      <p>Copyright &copy; 2023 Christian Bougas</p>
+    </div>
+  </body>
+</html>
